@@ -29,8 +29,12 @@ class ArrayofObjects{
         students[2]=s3;
 
         // System.out.print(students[0].name);
-        for(int i=0;i<students.length;i++){
-            System.out.println(students[i].name +"\t: "+ students[i].marks);
+        // for(int i=0;i<students.length;i++){
+        //     System.out.println(students[i].name +"\t: "+ students[i].marks);
+        // }
+
+        for(Student stud:students){
+            System.out.println(stud.name+"\t:"+stud.marks);
         }
 
 
