@@ -6,7 +6,7 @@ class Student{
 }
 
 class ArrayofObjects{
-    public static void main(String args[]){
+    public static void main(String args[]){        
         Student s1=new Student();
         s1.roll=1;
         s1.name="Ram";
@@ -36,6 +36,7 @@ class ArrayofObjects{
         for(Student stud:students){
             System.out.println(stud.name+"\t:"+stud.marks);
         }
+        
 
 
     }
