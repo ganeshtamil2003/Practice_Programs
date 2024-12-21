@@ -15,13 +15,16 @@ class GuesstheNumber{
             else if(number > guess){
                 System.out.println("You've Entered Greater than Answer");
                 times--;
+                System.out.println( times + " Guess left" );
+                
             }
             else if(number < guess){
                 System.out.println("You've Entered Lesser than Answer");
                 times--;
+                System.out.println( times + " Guess left" );
+
             }
         }
-        
         //System.out.println(guess);
 
     }
